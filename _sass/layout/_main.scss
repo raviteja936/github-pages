@@ -102,9 +102,10 @@
 							}
 				}
 
-			.project{
-					// padding-left: 20%;
-					// line-height: 2;
+			.projects{
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+				grid-gap: 30px;
 
 					.problem {
 							font-size: 0.9em;
