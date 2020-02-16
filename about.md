@@ -17,9 +17,9 @@ sitemap:
       <span class="column">
           <h3 style="margin: 0;"> Raviteja Uppalapati </h3>
           <h4> Senior Manager, Data Science </h4>
-          <p>Data Scientist turned Manager at American Express with 7+ years of experience building digital products. I am interested in the application of machine learning and computational techniques towards material and drug discovery.</p>
+          <p>Data Scientist turned Manager at American Express with 7+ years of experience in building scalable text based algorithms and digital products. Interested in the application of machine learning and computational techniques for material and drug discovery.</p>
           <h4>Quick Links</h4>
-          <a href="/cv.pdf">CV</a>
+          <a href="/images/cv.pdf">CV</a>
           <br>
           <a href="/interests">Interests</a>
           <br>
@@ -185,13 +185,24 @@ sitemap:
 </div>
 
 
-<!-- <div id="projects">
-  <div class="skill_list" class="box">
-    <h3>Projects</h3>
+<div id="projects" class="box">
+  <div class="post">
+    <div class="row">
+      <span class="column">
+        <h3>Projects</h3>
+      </span>
     </div>
   </div>
+</div>
 
-<div id="personal life" class="box">
+  <div id="projects">
+    <div class="skill_list" class="box">
+      <h3>Projects</h3>
+        <div class>
+      </div>
+    </div>
+
+<!-- <div id="personal life" class="box">
   <div class="skill_list">
     <h3>Personal Life</h3>
     </div>
