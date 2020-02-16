@@ -1,0 +1,197 @@
+.skill_list{
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    ul, li {
+      list-style-type: none;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      }
+
+    .skill {
+        .skill_score {
+            float: right;
+            padding-right: 20%;
+            }
+            .star:before{
+              content: "\2605";
+              color: chocolate;
+              }
+
+            .star-grey:before{
+              color: Grey;
+              }
+        }
+  }
+
+  <div id="skills" class="box">
+    <div class="post">
+      <div class="row">
+          <span class="column">
+            <h3>Skills</h3>
+                  <div class="skill_list">
+                    <ul>
+
+                      <li>
+                        <div class="skill">Python
+                          <span class="skill_score">
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star star-grey"></span>
+                          </span>
+                        </div>
+                       </li>
+
+                       <li>
+                         <div class="skill">Hive/SQL
+                           <span class="skill_score">
+                             <span class="star"></span>
+                             <span class="star"></span>
+                             <span class="star"></span>
+                             <span class="star"></span>
+                             <span class="star star-grey"></span>
+                           </span>
+                         </div>
+                        </li>
+
+                        <li>
+                          <div class="skill">Hadoop
+                            <span class="skill_score">
+                              <span class="star"></span>
+                              <span class="star"></span>
+                              <span class="star"></span>
+                              <span class="star star-grey"></span>
+                              <span class="star star-grey"></span>
+                            </span>
+                          </div>
+                         </li>
+
+                         <li>
+                           <div class="skill">Spark
+                             <span class="skill_score">
+                               <span class="star"></span>
+                               <span class="star"></span>
+                               <span class="star star-grey"></span>
+                               <span class="star star-grey"></span>
+                               <span class="star star-grey"></span>
+                             </span>
+                           </div>
+                          </li>
+
+                       </ul>
+
+                    </div>
+          </span>
+
+          <span class="column">
+                  <div class="skill_list" style="margin-top: 3.5rem;">
+                    <ul>
+
+                      <li>
+                        <div class="skill">Tensor Flow
+                          <span class="skill_score">
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star star-grey"></span>
+                            <span class="star star-grey"></span>
+                          </span>
+                        </div>
+                       </li>
+
+                       <li>
+                         <div class="skill">Scala
+                           <span class="skill_score">
+                             <span class="star"></span>
+                             <span class="star"></span>
+                             <span class="star star-grey"></span>
+                             <span class="star star-grey"></span>
+                             <span class="star star-grey"></span>
+                           </span>
+                         </div>
+                        </li>
+
+                        <li>
+                          <div class="skill">Matlab
+                            <span class="skill_score">
+                              <span class="star"></span>
+                              <span class="star"></span>
+                              <span class="star star-grey"></span>
+                              <span class="star star-grey"></span>
+                              <span class="star star-grey"></span>
+                            </span>
+                          </div>
+                         </li>
+
+                         <li>
+                           <div class="skill">HTML
+                             <span class="skill_score">
+                               <span class="star"></span>
+                               <span class="star"></span>
+                               <span class="star star-grey"></span>
+                               <span class="star star-grey"></span>
+                               <span class="star star-grey"></span>
+                             </span>
+                           </div>
+                          </li>
+
+                       </ul>
+
+                    </div>
+          </span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div id="projects" class="box">
+    <h3>Projects</h3>
+    <div id="amex_ny" class="project_scope">
+      <h1>American Express, New York</h1>
+
+      <div class="cards">
+        <ul>
+          <li>
+            <div class="box">Problem: Test Problem 1</div>
+          </li>
+          <li>
+            <div class="box">Problem: Test Problem 2</div>
+          </li>
+          <li>
+            <div class="box">Problem: Test Problem 3</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="amex_india" class="project_scope">
+      <h1>American Express, India</h1>
+
+      <div class="cards">
+        <ul>
+          <li>
+            <div class="project">
+              <div class="project_name">Problem: Test Problem 1</div>
+              <div class="soln">Problem: Test Problem 1</div>
+              <div class="impact">Problem: Test Problem 1</div>
+            </div>
+          </li>
+          <li>
+            <div class="box">Problem: Test Problem 2</div>
+          </li>
+          <li>
+            <div class="box">Problem: Test Problem 3</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div id="personal life" class="box">
+    <div class="skill_list">
+      <h3>Personal Life</h3>
+      </div>
+    </div> -->
