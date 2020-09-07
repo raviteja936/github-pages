@@ -1,7 +1,7 @@
 # Site
 title:              Cosmological Horizon
-bio:                "TBD1"
-description:        "TBD2"
+name:                "Raviteja uppalapati"
+description:        "Data Scientist turned Manager at American Express with 8+ years of experience in building scalable text based algorithms and digital products. Interested in the application of machine learning and computational techniques in niche areas like material and drug discovery."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -18,7 +18,7 @@ github:             raviteja936
 
 # personal
 location:           Jersey City, NJ
-phone:              000-000-0000
+phone:              +1 551-254-5200
 email:              uppalapati.teja@gmail.com # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
@@ -26,15 +26,18 @@ background_image:   /images/bg.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 slapform_thankyou_page: ""
 
-defaults:
-- scope:
-    path: ""
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
-    title: "Cosmos"
+collections:
+  aboutme:
+#
+# defaults:
+# - scope:
+#     path: ""
+#     type: posts
+#   values:
+#     permalink: "/blog/:title/"
+#     layout: post
+#     author:
+#     title: "Cosmos"
 
 # Jekyll
 permalink:          /blog/:title/

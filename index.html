@@ -18,15 +18,13 @@ sitemap:
 	<head>
     {% include head.html %}
 
-
 	</head>
 	<body class="is-loading">
-
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
 				<!-- Intro -->
-					<div id="intro">
+					<!-- <div id="intro">
             <h1>{{site.title}}</h1>
 						<q style="background-color:Tomato; padding-top: 10px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; opacity: 0.8">
               <i>"The Cosmos is all that is or ever was or ever will be"  </i> - <a href="http://quodid.com/quotes/2152/carl-sagan/the-cosmos-is-all-that-is-or-ever-was" target=_blank>Carl Sagan</a></q>
@@ -38,57 +36,61 @@ sitemap:
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
-					</div>
+					</div> -->
 
 				<!-- Header -->
 					<header id="header">
-
 						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
-
             {% include nav.html %}
-
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2 id="main_topic"><a href="#">Under construction</a></h2>
-									<p>Building something amazing. Please hold on.</p>
-								</header>
-								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
+
+            <!-- Box -->
+
+              <div class="box">
+                <h2>{{site.name}}</h2>
+                <p><span class="image right 2u"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></span>{{site.description}}</p>
+
+              	<h3>Quick Links</h3>
+              	<ul class="actions">
+              		<li><a href="/images/cv.pdf" target="_blank" class="button special">CV</a></li>
+                  <li><a href="/about#skills" class="button special">Skills</a></li>
+                  <li><a href="/about#courses" class="button special">Courses</a></li>
+                  <li><a href="/about#projects" class="button special">Projects</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=DXtWrDjDIGI" target="_blank" class="button special">Cosmological Horizon</a></li>
+              	</ul>
+              </div>
 
 
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
+  					<!-- Posts -->
+            <section class="posts">
                 {% for post in site.posts limit:3 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
+								<article>
+									<header>
+										<span class="date">{{ post.date | date_to_string }}</span>
+										<h3><a href="{{ post.url | absolute_url}}">{{post.title}}</a></h3>
+									</header>
+									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+									<p>{{ post.excerpt }}</p>
+									<ul class="actions">
+										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+									</ul>
+								</article>
+                {% if mod3 == 0 %}
+                <article>
+									<header>
+										<h2><a href="#">Sponsored</a></h2>
+									</header>
 
-  								</article>
-                  {% endif %}
+								</article>
+                {% endif %}
                 {% endfor %}
 
 							</section>

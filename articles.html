@@ -1,0 +1,48 @@
+---
+layout: page
+title: Cosmological Horizon
+description: Random articles
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+
+  <!-- <article class="post featured">
+    <header class="major">
+      <h2><a href="#">Articles by Topic</a></h2>
+      <p>Choose a topic to read more
+      </p>
+    </header>
+    <p>
+      Under construction
+    </p>
+
+  </article> -->
+  <!-- Post -->
+<section class="posts">
+  {% for post in site.posts %}
+  <!-- {% assign mod3 = forloop.index | modulo: 3 %} -->
+    <article>
+      <header>
+        <h3><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h3>
+        <span class="date">{{ post.date | date_to_string }}, {{ post.time_to_read}} read</span>
+        <!-- <span class="date">{{ post.time_to_read}} read</span> -->
+      </header>
+      <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+      <p>{{ post.excerpt }}</p>
+      <ul class="actions">
+        <li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+      </ul>
+    </article>
+    <!-- {% if mod3 == 0 %}
+    <article>
+      <header>
+        <h2><a href="#">Sponsored</a></h2>
+      </header>
+
+    </article>
+    {% endif %} -->
+  {% endfor %}
+
+</section>
