@@ -1,7 +1,7 @@
 # Site
 title:              Cosmological Horizon
 name:                "Raviteja uppalapati"
-description:        "Data Scientist turned Manager at American Express with 8+ years of experience in building scalable text based algorithms and digital products. Interested in the application of machine learning and computational techniques in niche areas like material and drug discovery."
+description:        "Data Scientist turned Manager at American Express with 8+ years of experience in building scalable text based algorithms and digital products. Interested in the application of machine learning and computational techniques to niche areas like material and drug discovery."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
